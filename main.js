@@ -235,7 +235,7 @@ searchField.addEventListener('input', function () {
 
     }
     //obtenemos la busqueda del usuario
-    let search = searchField.value;
+    let search = searchField.value.toLowerCase();
 
     for (let i = 0; i < pokemonList.length; i++) {
 
